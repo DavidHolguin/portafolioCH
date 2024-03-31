@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+
+        .HomeCarruselTagsPrograms {
+            padding: 2rem 0rem 2rem 0rem;
+            display: flex;
+            overflow: hidden;
+            flex-direction: column;
+            background-color: #0a090b;
+            text-rendering: optimizeLegibility;
+            gap: 8px;
+            width: 100%;
+            -webkit-box-shadow: inset 0px 2px 5px 0px rgb(0 0 0 / 58%);
+        }
+
+        .carousel-container {
+            overflow: hidden;   
+        }
+
+        .carousel {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marqueeRight 80s linear infinite;
+            
+        }
+
+        .carouselPosgrados {
+            display: inline-block;
+            white-space: nowrap;
+            
+            animation: marqueeLeft 300s linear infinite;
+            
+        }
+       
+
+        .tag {
+            display: inline-block;
+            background: #161b22;
+            padding: 5px 16px;
+            border-radius: 20px;
+            margin-right: 10px;
+            font-size: 14px;
+            color:  #dde0e5 !important;
+            font-family: 'Poppins', sans-serif !important;
+            min-width: fit-content;
+            transition: color .5s;
+            cursor: pointer;
+            text-decoration: none;
+        }
+       
+        
+        .tag:hover {
+            background: rgb(66,133,244);
+            background: linear-gradient(149deg, rgba(66,133,244,1) 0%, rgba(155,114,203,1) 46%, rgba(217,101,112,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 500;
+            border: solid 1px #fff;
+        }
+
+        @keyframes marqueeRight {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+        }
+
+
+        @keyframes marqueeLeft {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(50%);
+        }
+        }
+
+        @media only screen and (max-width: 768px) {
+            .carouselPosgrados {
+                animation: marqueeRight 150s linear infinite;
+            }
+        }
+        
+    </style>
+    
+</head>
+<body>
+
+    <section class="HomeCarruselTagsPrograms">
+   
+        
+            
+
+                <div class="carousel-container">
+                    <div class="carousel">
+                      
+                        <a class="tag">HTML</a>
+                        <a class="tag">CSS</a>
+                        <a class="tag">JavaScript</a>
+                        <a class="tag">Node JS</a>
+                        <a class="tag">WordPress</a>
+                        <a class="tag">React</a>                
+                        <a class="tag">Python</a>
+                        <a class="tag">Django</a>
+                        <a class="tag">Express.js</a>
+                        <a class="tag">MongoDB</a>
+                        <a class="tag">PostgreSQL</a>
+                        <a class="tag">Landing Page</a>
+                        <a class="tag">Single Page Application</a>
+                        <a class="tag">Responsive Web Design</a>
+                        <a class="tag">Serverless</a>
+                        <a class="tag">PWA</a>
+                        <a class="tag">HTML</a>
+                        <a class="tag">CSS</a>
+                        <a class="tag">JavaScript</a>
+                        <a class="tag">Node JS</a>
+                        <a class="tag">WordPress</a>
+                        <a class="tag">React</a>                
+                        <a class="tag">Python</a>
+                        <a class="tag">Django</a>
+                        <a class="tag">Express.js</a>
+                        <a class="tag">MongoDB</a>
+                        <a class="tag">PostgreSQL</a>
+                        <a class="tag">Landing Page</a>
+                        <a class="tag">Single Page Application</a>
+                        <a class="tag">Responsive Web Design</a>
+                        <a class="tag">Serverless</a>
+                        <a class="tag">PWA</a>
+                    </div>
+                  </div>  
+        
+            
+
+                <div class="carousel-container">
+                    <div class="carouselPosgrados">
+                        <a class="tag">Google Ads</a>
+                        <a class="tag">Content Marketing</a>
+                        <a class="tag">Facebook Ads</a>
+                        <a class="tag">Email Marketing</a>
+                        <a class="tag">CRM</a>
+                        <a class="tag">SEO</a>
+                        <a class="tag">Social Media Marketing</a>
+                        <a class="tag">Influencer Marketing</a>
+                        <a class="tag">Pay-per-click (PPC)</a>
+                        <a class="tag">Affiliate Marketing</a>
+                        <a class="tag">Marketing Automation</a>
+                        <a class="tag">Video Marketing</a>
+                        <a class="tag">Mobile Marketing</a>
+                        <a class="tag">Marketing de Contenidos</a>
+                        <a class="tag">Marketing de Influencia</a>
+                        <a class="tag">Marketing de Experiencia</a>
+                        <a class="tag">Marketing Viral</a>
+                        <a class="tag">Marketing de Guerrilla</a>
+                        <a class="tag">Marketing de Producto</a>
+                        <a class="tag">Marketing de Eventos</a>
+                   
+                </div>
+            </div>
+            
+
+            <div class="carousel-container">
+                <div class="carousel">
+                    <a class="tag">ChatGPT</a>
+                    <a class="tag">Microsoft Automate</a>
+                    <a class="tag">Zapier</a>
+                    <a class="tag">Gemini</a>
+                    <a class="tag">Chatbots con IA</a>
+                    <a class="tag">Redes Neuronales</a>
+                    <a class="tag">Procesamiento del Lenguaje Natural (NLP)</a>
+                    <a class="tag">Machine Learning</a>
+                    <a class="tag">Deep Learning</a>
+                    <a class="tag">Reconocimiento de Imágenes</a>
+                    <a class="tag">Automatización de Procesos Robóticos (RPA)</a>
+                    <a class="tag">Asistente Virtual</a>
+                    <a class="tag">Inteligencia Artificial</a>
+                    <a class="tag">Aprendizaje Automático (ML)</a>
+                    <a class="tag">Análisis Predictivo</a>
+                    <a class="tag">Automatización de Flujos de Trabajo</a>
+                    <a class="tag">Optimización de Procesos</a>
+                    <a class="tag">Analítica de Datos</a>
+                    <a class="tag">Segmentación de Audiencia</a>
+                    <a class="tag">Personalización de Contenidos</a>
+                </div>
+              </div>
+           
+            
+        
+
+    </section>
+      
+    
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .slider-container {
+            overflow: hidden;
+            position: relative;
+            background-color: #161b22;
+            box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.1) !important;
+        }
+        
+        .slider-track {
+            display: flex;
+            white-space: nowrap; /* Evita el salto de línea */
+            gap: 30px;
+            padding: 3rem 0rem;
+            align-items: center;
+            animation: scroll 50s infinite linear; /* Inicia la animación automáticamente */
+            animation-duration: 20s;
+        }
+        
+        .logo {
+            flex: 0 0 33.33%; /* Muestra 3 logos en una fila */
+            max-width: 33.33%;
+        }
+        
+        @media (max-width: 768px) {
+            .logo {
+                
+                max-width: 100%;
+            }
+        }
+        
+        /* Para hacer el slider infinito */
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider-track">
+            
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/logoOsmed-2.png" alt="Logo 3"></div>
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/logoTheValley.png" alt="Logo 3"></div>
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/logoICBF-1.png" alt="Logo 3"></div>
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/logoMyDriver-2.png" alt="Logo 1"></div>
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/fivesoundLogo.png" alt="Logo 2"></div>
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/logoOsmed-2.png" alt="Logo 3"></div>
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/logoTheValley.png" alt="Logo 3"></div>
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/logoICBF-1.png" alt="Logo 3"></div>
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/logoMyDriver-2.png" alt="Logo 1"></div>
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/fivesoundLogo.png" alt="Logo 2"></div>
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/logoOsmed-2.png" alt="Logo 3"></div>
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/logoTheValley.png" alt="Logo 3"></div>
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/logoICBF-1.png" alt="Logo 3"></div>
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/logoMyDriver-2.png" alt="Logo 1"></div>
+            <div class="logo"><img src="https://expertos.monkeytwomonkey.com/wp-content/uploads/2024/03/fivesoundLogo.png" alt="Logo 2"></div>
+            
+           
+         </div>
+    </div>
+</body>
+</html>
